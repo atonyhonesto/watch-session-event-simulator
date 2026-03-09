@@ -45,7 +45,7 @@ Open the folder in VS Code, then open a PowerShell terminal.
 .\send-wrestling-events.ps1 -DryRun
 ```
 
-### Send to local V2 app
+### Send to local app
 
 ```powershell
 .\send-wrestling-events.ps1
