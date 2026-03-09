@@ -1,6 +1,6 @@
 # Wrestling Match Event Sender
 
-Small VS Code-friendly PowerShell app that simulates a **2-minute wrestling match** and posts sample watch-session events to a running V2 app at:
+Small VS Code-friendly PowerShell app that simulates a **2-minute wrestling match** and posts sample watch-session events to a running app at:
 
 `http://localhost:3000/events`
 
