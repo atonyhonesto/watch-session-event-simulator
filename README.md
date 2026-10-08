@@ -1,4 +1,18 @@
-# Wrestling Match Event Sender
+# Watch Session Event Simulator
+
+[![tests](https://github.com/atonyhonesto/watch-session-event-simulator/actions/workflows/tests.yml/badge.svg)](https://github.com/atonyhonesto/watch-session-event-simulator/actions/workflows/tests.yml) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+
+A PowerShell script that plays a **two-minute wrestling match** as 11 player events and posts them to either build of the watch-session tracker, taking one session through every state.
+
+Companion code for my LinkedIn article **[Three Stakeholders, One Proof of Concept: Building a Real-Time Watch Session Tracker](https://www.linkedin.com/pulse/three-stakeholders-one-proof-concept-tony-honesto-rvkqc/)**. The article covers the design trade-offs: a 45-second activity window against a 10–15 second target, event-ID deduplication, two clocks, and why it was built twice.
+
+| Repo | What it is |
+|---|---|
+| [Lightweight build](https://github.com/atonyhonesto/watch-session-tracker-lightweight) | Node `http`, no runtime dependencies |
+| [Common-libraries build](https://github.com/atonyhonesto/watch-session-tracker-express-zod) | Express, Zod, Supertest |
+| **[Event simulator](https://github.com/atonyhonesto/watch-session-event-simulator)** ← you are here | PowerShell, a simulated two-minute wrestling match |
+
+---
 
 Small VS Code-friendly PowerShell app that simulates a **2-minute wrestling match** and posts sample watch-session events to a running app at:
 
